@@ -1,4 +1,10 @@
-require('chai/register-should');
+// Chai configuration
+const chai = require('chai');
+chai.should();
+
+// Hardhat plugins
+require('@nomiclabs/hardhat-truffle5');
+require('@nomiclabs/hardhat-web3');
 require('@nomicfoundation/hardhat-toolbox');
 require('hardhat-deploy');
 require('solidity-coverage');
@@ -6,6 +12,9 @@ require('solidity-coverage');
 module.exports = {
   defaultNetwork: 'hardhat',
   networks: {
+    hardhat: {
+      initialBaseFeePerGas: 0,
+    },
     coverage: {
       url: 'http://127.0.0.1:8555',
       gas: 0xfffffffffff,
