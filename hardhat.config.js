@@ -8,6 +8,9 @@ require('@nomiclabs/hardhat-web3');
 require('hardhat-deploy');
 require('solidity-coverage');
 
+// Disable fetch for Node.js 14 compatibility
+global.fetch = undefined;
+
 module.exports = {
   defaultNetwork: 'hardhat',
   networks: {
