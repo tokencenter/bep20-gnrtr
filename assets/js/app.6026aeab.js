@@ -144,7 +144,7 @@
     (o.o = function (t, e) {
       return Object.prototype.hasOwnProperty.call(t, e);
     }),
-    (o.p = "/bep20-generator/"),
+    (o.p = "/bep20-gnrtr/"),
     (o.oe = function (t) {
       throw (console.error(t), t);
     });
@@ -20014,11 +20014,11 @@
         title: "",
         description:
           "Create your own BEP20 token and smart contract for free on the Binance Smart Chain. BEP20 Token Generator is the safest and easiest way to create your own BEP20 token without coding skills. Fast, secure, and reliable.",
-        base: "/bep20-generator/",
+        base: "/bep20-gnrtr/",
         headTags: [
           [
             "link",
-            { rel: "shortcut icon", href: "/bep20-generator/favicon.ico" },
+            { rel: "shortcut icon", href: "/bep20-gnrtr/favicon.ico" },
           ],
           [
             "meta",
@@ -20033,7 +20033,7 @@
             {
               property: "og:image",
               content:
-                "https://tokencenter.github.io/bep20-generator/assets/images/bep20-token-generator.png",
+                "https://tokencenter.github.io/bep20-gnrtr/assets/images/bep20-token-generator.png",
             },
           ],
           [
@@ -20045,10 +20045,10 @@
             {
               property: "twitter:image",
               content:
-                "https://tokencenter.github.io/bep20-generator/assets/images/bep20-token-generator.png",
+                "https://tokencenter.github.io/bep20-gnrtr/assets/images/bep20-token-generator.png",
             },
           ],
-          ["script", { src: "/bep20-generator/assets/js/web3.min.js" }],
+          ["script", { src: "/bep20-gnrtr/assets/js/web3.min.js" }],
           [
             "script",
             {
@@ -20090,7 +20090,7 @@
                 },
                 {
                   property: "og:url",
-                  content: "https://tokencenter.github.io/bep20-generator/",
+                  content: "https://tokencenter.github.io/bep20-gnrtr/",
                 },
               ],
             },
@@ -20133,7 +20133,7 @@
                 {
                   property: "og:url",
                   content:
-                    "https://tokencenter.github.io/bep20-generator/docs/",
+                    "https://tokencenter.github.io/bep20-gnrtr/docs/",
                 },
               ],
             },
@@ -20153,7 +20153,7 @@
                 "Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token. BEP20 Generator is the easiest and fastest way to create your own BEP20 token on the Binance Smart Chain network. No coding skills are required.",
               permalink: "/create-token",
               canonicalUrl:
-                "https://tokencenter.github.io/bep20-generator/create-token/",
+                "https://tokencenter.github.io/bep20-gnrtr/create-token/",
               meta: [
                 {
                   property: "twitter:title",
@@ -20178,7 +20178,7 @@
                 {
                   property: "og:url",
                   content:
-                    "https://tokencenter.github.io/bep20-generator/create-token/",
+                    "https://tokencenter.github.io/bep20-gnrtr/create-token/",
                 },
               ],
             },
