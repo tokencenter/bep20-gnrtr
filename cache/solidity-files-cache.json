@@ -1,0 +1,1412 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\mocks\\BEP20Mock.sol": {
+      "lastModificationDate": 1746226130297,
+      "contentHash": "c15567d6c59e8b90e7bbe32efe3fea6a",
+      "sourceName": "contracts/mocks/BEP20Mock.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/BEP20/lib/BEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20Mock"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\BEP20.sol": {
+      "lastModificationDate": 1746226130312,
+      "contentHash": "7395371bd1cc14e5ac0ef8f884f63cba",
+      "sourceName": "contracts/token/BEP20/lib/BEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./IBEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\IBEP20.sol": {
+      "lastModificationDate": 1746226130316,
+      "contentHash": "af27c3ffa87fe04def0ed2da91ddcba5",
+      "sourceName": "contracts/token/BEP20/lib/IBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1746227001972,
+      "contentHash": "17d9f40220b0ab370db2c77e7c92c4ef",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1746227000694,
+      "contentHash": "bc047f55d4e6dcc5a9c7ee096f530312",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\StandardBEP20.sol": {
+      "lastModificationDate": 1746226130311,
+      "contentHash": "793f6bbad537047dc125fe6a67a14161",
+      "sourceName": "contracts/token/BEP20/StandardBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StandardBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\service\\ServicePayer.sol": {
+      "lastModificationDate": 1746226130301,
+      "contentHash": "ada7cb15c1a6f5d55b9ae43fd93f5746",
+      "sourceName": "contracts/service/ServicePayer.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPayable",
+        "ServicePayer"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\UnlimitedBEP20.sol": {
+      "lastModificationDate": 1746226130311,
+      "contentHash": "5c6ac9b482ae3654bb53d599c64765e9",
+      "sourceName": "contracts/token/BEP20/UnlimitedBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20Mintable.sol",
+        "./lib/BEP20Burnable.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UnlimitedBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\BEP20Mintable.sol": {
+      "lastModificationDate": 1746226130315,
+      "contentHash": "2fc9678a3b2635a8fa443beb21021f73",
+      "sourceName": "contracts/token/BEP20/lib/BEP20Mintable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../lib/BEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20Mintable"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\BEP20Burnable.sol": {
+      "lastModificationDate": 1746226130313,
+      "contentHash": "962f70500054fee1a10b06a1a623bac6",
+      "sourceName": "contracts/token/BEP20/lib/BEP20Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20Burnable"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\CommonBEP20.sol": {
+      "lastModificationDate": 1746226130308,
+      "contentHash": "f81611f3a4f8338eacaafe91a994467e",
+      "sourceName": "contracts/token/BEP20/CommonBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./lib/BEP20Capped.sol",
+        "./lib/BEP20Mintable.sol",
+        "./lib/BEP20Burnable.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CommonBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\BEP20Capped.sol": {
+      "lastModificationDate": 1746226130313,
+      "contentHash": "e819ed68678511be620e16f5012a4c16",
+      "sourceName": "contracts/token/BEP20/lib/BEP20Capped.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20Capped"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\utils\\TokenRecover.sol": {
+      "lastModificationDate": 1746226130320,
+      "contentHash": "e2a996c60dbf5209eb85c6845d8ef237",
+      "sourceName": "contracts/utils/TokenRecover.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/BEP20/lib/IBEP20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenRecover"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\IBEP20Operable.sol": {
+      "lastModificationDate": 1746226130317,
+      "contentHash": "5509d66aab3139688adcbbc34efd7038",
+      "sourceName": "contracts/token/BEP20/lib/IBEP20Operable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBEP20.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBEP20Operable"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1746227001864,
+      "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1746227000915,
+      "contentHash": "a9a5319dff9088c6ffe757ea1c2a6729",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\BEP20Operable.sol": {
+      "lastModificationDate": 1746226130315,
+      "contentHash": "bfc5017ad9975e84dce53ecd56bdf99e",
+      "sourceName": "contracts/token/BEP20/lib/BEP20Operable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BEP20.sol",
+        "./IBEP20Operable.sol",
+        "./IBEP20OperableReceiver.sol",
+        "./IBEP20OperableSpender.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20Operable"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\IBEP20OperableReceiver.sol": {
+      "lastModificationDate": 1746226130318,
+      "contentHash": "ce0690d1906df5ca8e7ad5113f3925ab",
+      "sourceName": "contracts/token/BEP20/lib/IBEP20OperableReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBEP20OperableReceiver"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\lib\\IBEP20OperableSpender.sol": {
+      "lastModificationDate": 1746226130318,
+      "contentHash": "164b2f43fd96f35a29b4756e41e967a5",
+      "sourceName": "contracts/token/BEP20/lib/IBEP20OperableSpender.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBEP20OperableSpender"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1746227000658,
+      "contentHash": "37103cdc416efc2601c6f6734044b559",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Checker.sol": {
+      "lastModificationDate": 1746227000915,
+      "contentHash": "a65c606ba9eda6f9d0135c28683d1595",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\mocks\\BEP20OperableSpenderMock.sol": {
+      "lastModificationDate": 1746226130298,
+      "contentHash": "48935e42809a6c797670610b09729352",
+      "sourceName": "contracts/mocks/BEP20OperableSpenderMock.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/BEP20/lib/IBEP20OperableSpender.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20OperableSpenderMock"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\mocks\\BEP20OperableReceiverMock.sol": {
+      "lastModificationDate": 1746226130297,
+      "contentHash": "956af22dd725d6116415873a5cdaab1f",
+      "sourceName": "contracts/mocks/BEP20OperableReceiverMock.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../token/BEP20/lib/IBEP20OperableReceiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEP20OperableReceiverMock"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\AmazingBEP20.sol": {
+      "lastModificationDate": 1746226130305,
+      "contentHash": "b300a0920e6da05923d4de9c8e83f0a2",
+      "sourceName": "contracts/token/BEP20/AmazingBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20Mintable.sol",
+        "./lib/BEP20Burnable.sol",
+        "./lib/BEP20Operable.sol",
+        "../../utils/TokenRecover.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AmazingBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\MintableBEP20.sol": {
+      "lastModificationDate": 1746226130309,
+      "contentHash": "9857a1339ba6f1768cff9974151bb51a",
+      "sourceName": "contracts/token/BEP20/MintableBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20Capped.sol",
+        "./lib/BEP20Mintable.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MintableBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\service\\ServiceReceiver.sol": {
+      "lastModificationDate": 1746226130302,
+      "contentHash": "348d46345868d556b271a8158d755dfb",
+      "sourceName": "contracts/service/ServiceReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ServiceReceiver"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\BurnableBEP20.sol": {
+      "lastModificationDate": 1746226130307,
+      "contentHash": "f9a70392a5b5e96adccef06294a45d09",
+      "sourceName": "contracts/token/BEP20/BurnableBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20Burnable.sol",
+        "../../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BurnableBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\SimpleBEP20.sol": {
+      "lastModificationDate": 1746226130310,
+      "contentHash": "ed9d923d0b58ef914a3aec0f63a5e6f8",
+      "sourceName": "contracts/token/BEP20/SimpleBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20.sol",
+        "../../service/ServicePayer.sol",
+        "../../utils/GeneratorCopyright.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\utils\\GeneratorCopyright.sol": {
+      "lastModificationDate": 1746226130319,
+      "contentHash": "c80fc94d39202a8b480a55fc1cd2d103",
+      "sourceName": "contracts/utils/GeneratorCopyright.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GeneratorCopyright"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\token\\BEP20\\HelloBEP20.sol": {
+      "lastModificationDate": 1746226130308,
+      "contentHash": "d29f9a650d23e4e7f67a3e6131f34954",
+      "sourceName": "contracts/token/BEP20/HelloBEP20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./lib/BEP20.sol",
+        "../../service/ServicePayer.sol",
+        "../../utils/GeneratorCopyright.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HelloBEP20"
+      ]
+    },
+    "C:\\Users\\omerc\\Documents\\GitHub\\bep20-gnrtr\\contracts\\mocks\\ServicePayerMock.sol": {
+      "lastModificationDate": 1746226130299,
+      "contentHash": "e4e3e15eacb3dc0f4f9f37b5aa97b50d",
+      "sourceName": "contracts/mocks/ServicePayerMock.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../service/ServicePayer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ServicePayerMock"
+      ]
+    }
+  }
+}
