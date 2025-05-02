@@ -12,7 +12,7 @@ meta:
     - property: og:description
       content: Create your own BEP20 token and smart contract for free on the Binance Smart Chain. BEP20 Token Generator is the safest and easiest way to create your own BEP20 token without coding skills. Fast, secure, and reliable.
     - property: og:url
-      content: https://tokencenter.github.io/bep20-generator/
+      content: https://tokencenter.github.io/bep20-gnrtr/
 ---
 
 # BEP20 Token Generator - DAPP
@@ -29,8 +29,8 @@ Create your own BEP20 token and smart contract for free on the Binance Smart Cha
 
 ## Try it
 
-[Create your BEP20 Token now](https://tokencenter.github.io/bep20-generator/)
+[Create your BEP20 Token now](https://tokencenter.github.io/bep20-gnrtr/)
 
 ## License
 
-Code released under the [MIT License](https://github.com/tokencenter/bep20-generator/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/tokencenter/bep20-gnrtr/blob/master/LICENSE).

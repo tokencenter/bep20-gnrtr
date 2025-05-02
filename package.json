@@ -1,6 +1,6 @@
 {
   "title": "BEP20 Token Generator",
-  "name": "bep20-generator",
+  "name": "bep20-gnrtr",
   "version": "1.0.0",
   "description": "Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable BEP20 Token.",
   "scripts": {
@@ -12,13 +12,13 @@
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/tokencenter/bep20-generator/issues"
+    "url": "https://github.com/tokencenter/bep20-gnrtr/issues"
   },
   "license": "MIT",
   "author": "Vittorio Minacori (https://github.com/vittominacori)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tokencenter/bep20-generator.git"
+    "url": "https://github.com/tokencenter/bep20-gnrtr.git"
   },
   "dependencies": {
     "@saeris/vue-spinners": "^1.0.8",

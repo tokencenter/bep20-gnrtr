@@ -54,7 +54,7 @@
             <b-embed
                     type="iframe"
                     aspect="4by3"
-                    src="https://tokencenter.github.io/bep20-generator-terms/"
+                    src="https://tokencenter.github.io/bep20-gnrtr-terms/"
                     allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
                     allowfullscreen
             ></b-embed>

@@ -2,14 +2,14 @@ const vars = require('./.env.json');
 
 module.exports = {
   description: 'Create your own BEP20 token and smart contract for free on the Binance Smart Chain. BEP20 Token Generator is the safest and easiest way to create your own BEP20 token without coding skills. Fast, secure, and reliable.',
-  base: '/bep20-generator/',
+  base: '/bep20-gnrtr/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:image', content: 'https://tokencenter.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
+    ['meta', { property: 'og:image', content: 'https://tokencenter.github.io/bep20-gnrtr/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'twitter:image', content: 'https://tokencenter.github.io/bep20-generator/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
+    ['meta', { property: 'twitter:image', content: 'https://tokencenter.github.io/bep20-gnrtr/assets/images/bep20-token-generator.png' }], // eslint-disable-line max-len
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {
