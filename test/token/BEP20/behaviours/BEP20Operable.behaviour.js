@@ -40,7 +40,7 @@ function shouldBehaveLikeBEP20Operable ([owner, spender, recipient], balance) {
             operator: spender,
             sender: owner,
             amount: value,
-            data: data,
+            data,
           });
         });
       });
@@ -200,7 +200,7 @@ function shouldBehaveLikeBEP20Operable ([owner, spender, recipient], balance) {
             operator: owner,
             sender: owner,
             amount: value,
-            data: data,
+            data,
           });
         });
       });
@@ -357,7 +357,7 @@ function shouldBehaveLikeBEP20Operable ([owner, spender, recipient], balance) {
           await expectEvent.inTransaction(receipt.tx, BEP20OperableSpender, 'Approved', {
             sender: owner,
             amount: value,
-            data: data,
+            data,
           });
         });
       });
@@ -384,7 +384,7 @@ function shouldBehaveLikeBEP20Operable ([owner, spender, recipient], balance) {
 
           expectEvent.inLogs(logs, 'Approval', {
             owner: sender,
-            spender: spender,
+            spender,
             value: amount,
           });
         });
@@ -403,7 +403,7 @@ function shouldBehaveLikeBEP20Operable ([owner, spender, recipient], balance) {
 
           expectEvent.inLogs(logs, 'Approval', {
             owner: sender,
-            spender: spender,
+            spender,
             value: amount,
           });
         });

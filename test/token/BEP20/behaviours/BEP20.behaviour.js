@@ -73,7 +73,7 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
 
           expectEvent.inLogs(logs, 'Transfer', {
             from: owner,
-            to: to,
+            to,
             value: amount,
           });
         });
@@ -103,8 +103,8 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
           const { logs } = await this.token.approve(spender, amount, { from: owner });
 
           expectEvent.inLogs(logs, 'Approval', {
-            owner: owner,
-            spender: spender,
+            owner,
+            spender,
             value: amount,
           });
         });
@@ -137,8 +137,8 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
           const { logs } = await this.token.approve(spender, amount, { from: owner });
 
           expectEvent.inLogs(logs, 'Approval', {
-            owner: owner,
-            spender: spender,
+            owner,
+            spender,
             value: amount,
           });
         });
@@ -211,7 +211,7 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
 
             expectEvent.inLogs(logs, 'Transfer', {
               from: owner,
-              to: to,
+              to,
               value: amount,
             });
           });
@@ -300,8 +300,8 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
             const { logs } = await this.token.decreaseAllowance(spender, approvedAmount, { from: owner });
 
             expectEvent.inLogs(logs, 'Approval', {
-              owner: owner,
-              spender: spender,
+              owner,
+              spender,
               value: new BN(0),
             });
           });
@@ -363,8 +363,8 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
           const { logs } = await this.token.increaseAllowance(spender, amount, { from: owner });
 
           expectEvent.inLogs(logs, 'Approval', {
-            owner: owner,
-            spender: spender,
+            owner,
+            spender,
             value: amount,
           });
         });
@@ -397,8 +397,8 @@ function shouldBehaveLikeBEP20 (name, symbol, decimals, initialBalance, [owner, 
           const { logs } = await this.token.increaseAllowance(spender, amount, { from: owner });
 
           expectEvent.inLogs(logs, 'Approval', {
-            owner: owner,
-            spender: spender,
+            owner,
+            spender,
             value: amount,
           });
         });
