@@ -5,7 +5,6 @@ chai.should();
 // Hardhat plugins
 require('@nomiclabs/hardhat-truffle5');
 require('@nomiclabs/hardhat-web3');
-require('@nomicfoundation/hardhat-toolbox');
 require('hardhat-deploy');
 require('solidity-coverage');
 
@@ -22,7 +21,7 @@ module.exports = {
     },
   },
   solidity: {
-    version: '0.8.20',
+    version: '0.8.3',
     settings: {
       optimizer: {
         enabled: true,
