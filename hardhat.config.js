@@ -1,6 +1,6 @@
 require('chai/register-should');
-require('@nomiclabs/hardhat-ganache');
-require('@nomiclabs/hardhat-truffle5');
+require('@nomicfoundation/hardhat-toolbox');
+require('hardhat-deploy');
 require('solidity-coverage');
 
 module.exports = {
@@ -13,12 +13,22 @@ module.exports = {
     },
   },
   solidity: {
-    version: '0.8.3',
+    version: '0.8.20',
     settings: {
       optimizer: {
         enabled: true,
         runs: 200,
       },
     },
+  },
+  paths: {
+    sources: './contracts',
+    tests: './test',
+    cache: './cache',
+    artifacts: './artifacts',
+    deploy: './deploy',
+  },
+  mocha: {
+    timeout: 20000
   },
 };
